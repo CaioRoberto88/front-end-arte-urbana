@@ -1,0 +1,166 @@
+/* GERAL */
+* {
+  font-family: Helvetica;
+  letter-spacing: 0.3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #05aff2;
+}
+
+.navbar-brand {
+  color: #fff;
+  transition: 0.3ms;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3ms;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #04d9b2;
+}
+
+header {
+  background-color: #05aff2;
+}
+
+main {
+  background-color: #04d9b2;
+}
+
+.card {
+  color: #fff;
+  background-color: #05aff2;
+  border: 1px solid #f2b705;
+}
+
+/* CONTATO */
+
+#contato {
+  color: #fff;
+  background-color: #f2b705;
+}
+
+.contato-titulo {
+  font-size: 36px;
+}
+
+#sobre {
+  background-color: #04d9b2;
+  border-radius: 10px;
+}
+
+.sobre-titulo {
+  color: #05aff2;
+}
+
+.sobre-titulo,
+.redes-sociais-titulo {
+  font-size: 24px;
+}
+
+.bi-instagram,
+.bi-facebook,
+.bi-youtube,
+.bi-tiktok {
+  font-size: 24px;
+}
+
+.bi-instagram {
+  color: #833ab4;
+}
+.bi-facebook {
+  color: #4267b2;
+}
+.bi-youtube {
+  color: #ff0000;
+}
+.bi-tiktok {
+  color: #000;
+}
+
+/* CAROUSEL DE ARTES */
+
+#carousel-de-artes {
+  background-color: #04d9b2;
+}
+
+.carousel-de-artes-titulo {
+  color: #fff;
+  font-size: 36px;
+}
+
+.carousel-custom2 {
+  height: 600px;
+  border-radius: 10px;
+}
+
+/* ARTES EM VIDEO */
+
+#artes-em-video {
+  color: #fff;
+  background-color: #f2b705;
+}
+
+/* FOOTER */
+
+footer {
+  color: #fff;
+  background-color: #05aff2;
+}
+
+.redes-sociais-titulo-footer {
+  font-size: 18px;
+}
+.redes-sociais-footer {
+  font-size: 16px;
+}
+
+@media (max-width: 440px) {
+  body {
+    min-width: 440px;
+  }
+
+  .instagram-media {
+    height: auto;
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-footer {
+    font-size: 10px;
+  }
+  body {
+    min-width: 576px;
+  }
+
+  .instagram-media {
+    height: auto;
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .instagram-media {
+    height: auto;
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .instagram-media {
+    height: auto;
+    min-height: 900px;
+  }
+}
